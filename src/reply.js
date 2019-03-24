@@ -1,4 +1,4 @@
-import axios from "axios"
+import axios from 'axios'
 
 exports.handler = async function(event, context, callback) {
   const webhookBody = JSON.parse(event.body)
@@ -20,6 +20,7 @@ exports.handler = async function(event, context, callback) {
       'Authorization': `Bearer ${process.env.CHANNEL_TOKEN}`
     }
   })
+  console.log(res)
 
   callback(null, {
     statusCode: 200,
