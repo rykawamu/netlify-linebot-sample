@@ -4,7 +4,9 @@
   "description": "Netlifyを利用したLINE Botのサンプル",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "netlify-lambda build src/",
+    "serve": "netlify-lambda serve src/"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/rykawamu/netlify-linebot-sample/issues"
   },
-  "homepage": "https://github.com/rykawamu/netlify-linebot-sample#readme"
+  "homepage": "https://github.com/rykawamu/netlify-linebot-sample#readme",
+  "dependencies": {
+    "netlify-lambda": "^1.4.3"
+  }
 }
