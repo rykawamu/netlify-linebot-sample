@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 exports.handler = async function(event, context, callback) {
-  const webhookBody = JSON.parse(event.body)
+  const webhookBody = JSON.parse(event.body || "null")
   console.log(webhookBody)
 
   const data = {
