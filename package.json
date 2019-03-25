@@ -18,6 +18,9 @@
     "url": "https://github.com/rykawamu/netlify-linebot-sample/issues"
   },
   "homepage": "https://github.com/rykawamu/netlify-linebot-sample#readme",
+  "devDependencies": {
+    "netlify-lambda": "^1.4.3"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "netlify-lambda": "^1.4.3"
