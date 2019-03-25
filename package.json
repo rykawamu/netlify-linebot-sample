@@ -22,7 +22,6 @@
     "netlify-lambda": "^1.4.3"
   },
   "dependencies": {
-    "axios": "^0.18.0",
-    "netlify-lambda": "^1.4.3"
+    "axios": "^0.18.0"
   }
 }
