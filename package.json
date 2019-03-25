@@ -4,7 +4,6 @@
   "description": "Netlifyを利用したLINE Botのサンプル",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "netlify-lambda build src/",
     "serve": "netlify-lambda serve src/"
   },
